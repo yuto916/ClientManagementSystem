@@ -1,0 +1,17 @@
+
+Sign out success at 2023-01-18 16:20:36. User: "sales1".
+Sign in success at 2023-01-18 16:20:48. User: "sales2".
+Sign out success at 2023-01-18 16:22:02. User: "sales2".
+Sign in success at 2023-01-18 16:22:33. User: "jdoe101".
+Sign out success at 2023-01-18 16:22:42. User: "jdoe101".
+Sign in success at 2023-01-18 16:23:02. User: "sales1".
+Sign out success at 2023-01-18 16:23:07. User: "sales1".
+Sign in success at 2023-01-18 16:24:39. User: "sales1".
+Sign out success at 2023-01-18 16:25:45. User: "sales1".
+Sign in success at 2023-01-18 16:25:50. User: "sales1".
+Sign out success at 2023-01-18 16:25:59. User: "sales1".
+Sign in success at 2023-01-18 16:26:05. User: "sales2".
+Sign out success at 2023-01-18 16:28:09. User: "sales2".
+Sign in success at 2023-01-18 16:28:20. User: "sales1".
+Sign in success at 2023-01-18 16:29:34. User: "sales1".
+Sign in success at 2023-01-18 20:49:22. User: "sales1".
