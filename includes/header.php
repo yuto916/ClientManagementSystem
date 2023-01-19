@@ -44,12 +44,12 @@
         <ul class="navbar-nav px-3">
             <?php if(!isLoggedIn('user')): ?>
                 <li class="nav-item text-nowrap">
-                    <a class="nav-link" href="../client_management-system/sign-in.php">Sign In</a>
+                    <a class="nav-link" href="../client-management-system/sign-in.php">Sign In</a>
                 </li>
 
             <?php else: ?>
                 <li class="nav-item text-nowrap">
-                    <a class="nav-link" href="../client_management-system/sign-out.php">Sign Out</a>
+                    <a class="nav-link" href="../client-management-system/sign-out.php">Sign Out</a>
                 </li>
 
             <?php endif ?>
@@ -68,7 +68,7 @@
                     <!--     - - - - - - - - - - - - If a user is not logged in - - - - - - - - - - - -    -->
                     <?php if(!isLoggedIn('user')): ?>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/index.php">Home Page</a>
+                            <a class="nav-link active" href="../client-management-system/index.php">Home Page</a>
                         </li>
                     <!--     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -     -->
 
@@ -77,15 +77,15 @@
                     <!--     - - - - - - If a user is logged in and not Admin or Salesperson - - - - -     -->
                     <?php elseif(isLoggedIn('user') && isAdmin() == false && isSalesPerson() == false): ?>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/index.php">Home Page</a>
+                            <a class="nav-link active" href="../client-management-system/index.php">Home Page</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/dashboard.php">Dashboard </a>
+                            <a class="nav-link active" href="../client-management-system/dashboard.php">Dashboard </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/change-password.php">Change Password</a>
+                            <a class="nav-link active" href="../client-management-system/change-password.php">Change Password</a>
                         </li>
                     <!--     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -     -->
                     
@@ -94,23 +94,23 @@
                     <!--     - - - - - - - - - If a user is logged in and is Admin - - - - - - - - -     -->
                     <?php elseif(isLoggedIn('user') && isAdmin() == true): ?>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/index.php">Home Page</a>
+                            <a class="nav-link active" href="../client-management-system/index.php">Home Page</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/dashboard.php">Dashboard</a>
+                            <a class="nav-link active" href="../client-management-system/dashboard.php">Dashboard</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/salespeople.php">Sales People</a>
+                            <a class="nav-link active" href="../client-management-system/salespeople.php">Sales People</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/clients.php">Clients</a>
+                            <a class="nav-link active" href="../client-management-system/clients.php">Clients</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/change-password.php">Change Password</a>
+                            <a class="nav-link active" href="../client-management-system/change-password.php">Change Password</a>
                         </li>
                     <!--     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -     -->
                     
@@ -119,23 +119,23 @@
                     <!--     - - - - - - - If a user is logged in and is a sales person - - - - - - -     -->
                     <?php elseif(isLoggedIn('user') && isSalesPerson() == true): ?>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/index.php">Home Page</a>
+                            <a class="nav-link active" href="../client-management-system/index.php">Home Page</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/dashboard.php">Dashboard</a>
+                            <a class="nav-link active" href="../client-management-system/dashboard.php">Dashboard</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/clients.php">Clients</a>
+                            <a class="nav-link active" href="../client-management-system/clients.php">Clients</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/calls.php">Calls</a>
+                            <a class="nav-link active" href="../client-management-system/calls.php">Calls</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" href="../client_management-system/change-password.php">Change Password</a>
+                            <a class="nav-link active" href="../client-management-system/change-password.php">Change Password</a>
                         </li>
                     <!--     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -     -->
 

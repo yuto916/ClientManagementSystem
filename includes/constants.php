@@ -19,9 +19,9 @@ define("CLIENT", 'C');
 
 // Database constants
 define("DB_HOST", "127.0.0.1");
-define("DATABASE", "");
+define("DATABASE", "client_management_system_db");
 define("DB_ADMIN", "");
-define("DB_PORT", "");
+define("DB_PORT", "5432");
 define("DB_PASSWORD", "");
 
 
